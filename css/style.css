@@ -1,0 +1,37 @@
+body{
+    font-family: "Arial";
+}
+button{
+    padding: 2px 8px;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table thead{
+    color: #fff;
+    background-color: tomato;
+}
+.table td,
+.table th{
+    border: 1px solid #000;
+    padding: 10px 20px;
+}
+.table tr:nth-child(odd) td{
+    background-color: wheat;
+}
+.table tr:nth-child(even) td{
+    background-color: pink;
+}
+.table td:last-child{
+    padding: 0;
+    width: 5%;
+}
+.select option:first-child{
+    display: none;
+}
