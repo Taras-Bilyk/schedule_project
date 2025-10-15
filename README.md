@@ -6,7 +6,7 @@ A website created to improve my PHP skills.
 This project was made to revisit the basics of PHP.
 
 ## Technologies Used
-- HTML
+- PHP
 - CSS
 
 ## Project Structure
